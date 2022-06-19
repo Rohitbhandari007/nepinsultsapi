@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 
 from core.models import Insult
 from .serializers import InsultSerializer
-
+#random
 import random
 
 
