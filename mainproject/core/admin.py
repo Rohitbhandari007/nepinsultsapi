@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from .models import Insults
+from .models import Insult
 
-admin.site.register(Insults)
+admin.site.register(Insult)
