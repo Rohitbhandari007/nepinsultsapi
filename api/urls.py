@@ -4,5 +4,5 @@ from .views import getData
 
 
 urlpatterns = [
-    path('nepsultsapi/', getData, name="get-data"),
+    path('', getData, name="get-data"),
 ]
