@@ -4,5 +4,5 @@ from .views import getData
 
 
 urlpatterns = [
-    path('', getData, name="get-data"),
+    path('api/', getData, name="get-data"),
 ]
